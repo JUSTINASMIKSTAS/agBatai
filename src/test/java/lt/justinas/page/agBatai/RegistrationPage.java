@@ -13,4 +13,12 @@ public class RegistrationPage extends PageBase {
     public static void enterVardas(String vardas) {
         Common.sendKeysToElement(Locator.AgBatai.Registration.inputVardas,vardas);
     }
+
+    public static void enterPavarde(String pavarde) {
+        Common.sendKeysToElement(Locator.AgBatai.Registration.inputPavarde,pavarde);
+    }
+
+    public static void enterElPastas(String elPastas) {
+        Common.sendKeysToElement(Locator.AgBatai.Registration.inputElPastas,elPastas);
+    }
 }

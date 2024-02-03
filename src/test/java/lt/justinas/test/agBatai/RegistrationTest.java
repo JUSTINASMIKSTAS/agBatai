@@ -24,8 +24,8 @@ public class RegistrationTest extends TestBase {
              String actualResult = null;
 
          RegistrationPage.enterVardas(vardas);
-//         RegistrationPage.enterPavarde(pavarde);
-//         RegistrationPage.enterElPastas(elPastas);
+         RegistrationPage.enterPavarde(pavarde);
+         RegistrationPage.enterElPastas(elPastas);
 //         RegistrationPage.enterTelefonas(telefonas)
 //         RegistrationPage.enterSlaptazodis(slaptazodis);
 //         RegistrationPage.clickOnButtonSutinkuSuTaisyklemis();
