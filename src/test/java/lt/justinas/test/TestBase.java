@@ -11,8 +11,8 @@ public abstract class TestBase {
     @BeforeMethod
     public abstract void setUp();
 
-    @AfterMethod
-    public void tearDown() {
-        Common.quitDriver();
-    }
+//    @AfterMethod
+//    public void tearDown() {
+//        Common.quitDriver();
+//    }
 }
