@@ -9,4 +9,8 @@ public class RegistrationPage extends PageBase {
         Common.waitElementVisible(Locator.AgBatai.Registration.buttonCookie,6);
         Common.clickOnElement(Locator.AgBatai.Registration.buttonCookie);
     }
+
+    public static void enterVardas(String vardas) {
+        Common.sendKeysToElement(Locator.AgBatai.Registration.inputVardas,vardas);
+    }
 }

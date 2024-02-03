@@ -15,8 +15,21 @@ public class RegistrationTest extends TestBase {
     }
      @Test
          public void test() {
+         String elPastas = "antanas895@gmail.com";
+         String vardas = "Antanas";
+         String pavarde = "Antanaitis";
+         String slaptazodis = "skaiciai111";
+         String telefonas = "+37064603460";
              String expectedResult = "";
              String actualResult = null;
+
+         RegistrationPage.enterVardas(vardas);
+//         RegistrationPage.enterPavarde(pavarde);
+//         RegistrationPage.enterElPastas(elPastas);
+//         RegistrationPage.enterTelefonas(telefonas)
+//         RegistrationPage.enterSlaptazodis(slaptazodis);
+//         RegistrationPage.clickOnButtonSutinkuSuTaisyklemis();
+//         RegistrationPage.clickOnButtonRegistruotis();
 
              Assert.assertTrue(
                      actualResult.contains(expectedResult),
