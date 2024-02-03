@@ -10,6 +10,8 @@ public class Locator {
             public static By inputVardas = By.xpath("//input[@name='firstname']");
             public static By inputPavarde = By.xpath("//input[@name='lastname']");
             public static By inputElPastas = By.xpath("//input[@name='email']");
+            public static By inputTelefonas = By.xpath("//input[@name='phone']");
+            public static By inputSlaptazodis = By.xpath("//input[@id='password']");
         }
     }
 }

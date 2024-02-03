@@ -14,7 +14,7 @@ public class RegistrationTest extends TestBase {
         RegistrationPage.acceptCokies();
     }
      @Test
-         public void test() {
+         public void testRegistration() {
          String elPastas = "antanas895@gmail.com";
          String vardas = "Antanas";
          String pavarde = "Antanaitis";
@@ -26,8 +26,8 @@ public class RegistrationTest extends TestBase {
          RegistrationPage.enterVardas(vardas);
          RegistrationPage.enterPavarde(pavarde);
          RegistrationPage.enterElPastas(elPastas);
-//         RegistrationPage.enterTelefonas(telefonas)
-//         RegistrationPage.enterSlaptazodis(slaptazodis);
+         RegistrationPage.enterTelefonas(telefonas);
+         RegistrationPage.enterSlaptazodis(slaptazodis);
 //         RegistrationPage.clickOnButtonSutinkuSuTaisyklemis();
 //         RegistrationPage.clickOnButtonRegistruotis();
 
