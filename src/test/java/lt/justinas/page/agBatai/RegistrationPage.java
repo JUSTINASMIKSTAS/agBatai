@@ -24,11 +24,22 @@ public class RegistrationPage extends PageBase {
 
     public static void enterTelefonas(String telefonas) {
         Common.sendKeysToElement(Locator.AgBatai.Registration.inputTelefonas, telefonas);
-
     }
 
     public static void enterSlaptazodis(String slaptazodis) {
         Common.sendKeysToElement(Locator.AgBatai.Registration.inputSlaptazodis, slaptazodis);
+    }
 
+    public static void clickOnButtonSutinkuSuTaisyklemis() {
+        Common.clickOnElement(Locator.AgBatai.Registration.inputSutinkuSuTaisyklemis);
+    }
+
+    public static void clickOnButtonRegistruotis() {
+        Common.clickOnElement(Locator.AgBatai.Registration.buttonRegistruokis);
+    }
+
+    public static String readProfileName() {
+        Common.waitElementVisible(Locator.AgBatai.Registration.paragraphProfileName, 6);
+        return Common.getTextFromElement(Locator.AgBatai.Registration.paragraphProfileName);
     }
 }
