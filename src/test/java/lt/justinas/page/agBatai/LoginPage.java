@@ -9,4 +9,16 @@ public class LoginPage extends PageBase {
         Common.waitElementVisible(Locator.AgBatai.Login.buttonCookie, 6);
         Common.clickOnElement(Locator.AgBatai.Login.buttonCookie);
     }
+
+    public static void clickOnButtonPrisijungti() {
+        Common.clickOnElement(Locator.AgBatai.Login.buttonPrisijungti);
+    }
+
+    public static void enterElPastas(String elPastas) {
+        Common.sendKeysToElement(Locator.AgBatai.Login.inputElPastas, elPastas);
+    }
+
+    public static void enterSlaptazodis(String slaptazodis) {
+        Common.sendKeysToElement(Locator.AgBatai.Login.inputSlaptazodis, slaptazodis);
+    }
 }
