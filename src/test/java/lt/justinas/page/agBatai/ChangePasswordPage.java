@@ -24,4 +24,13 @@ public class ChangePasswordPage extends PageBase {
     public static void clickButtonPrivacyPolicy() {
         Common.clickOnElement(Locator.AgBatai.ChangePassword.inputrivacyPolicy);
     }
+
+    public static void ClickButtonIssaugoti() {
+        Common.clickOnElement(Locator.AgBatai.ChangePassword.buttonIssaugoti);
+    }
+
+    public static String readInformacijaAtnaujinta() {
+        Common.waitElementVisible(Locator.AgBatai.ChangePassword.paragraphInformacijaAtnaujinta, 6);
+        return Common.getTextFromElement(Locator.AgBatai.ChangePassword.paragraphInformacijaAtnaujinta);
+    }
 }

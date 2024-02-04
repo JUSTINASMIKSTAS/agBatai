@@ -21,13 +21,15 @@ public class ChangePasswordTest extends TestBase {
     public void test() {
         String slaptazodis = "skaiciai111";
         String NaujasSlaptazodis = "skaiciai1112";
-        String expectedResult = "";
+        String expectedResult = "Informacija atnaujinta.";
         String actualResult = null;
         ChangePasswordPage.clickButtonProfile();
         ChangePasswordPage.clickButtonProfileInfo();
         ChangePasswordPage.enterPassword(slaptazodis);
         ChangePasswordPage.enterNewPassword(NaujasSlaptazodis);
         ChangePasswordPage.clickButtonPrivacyPolicy();
+        ChangePasswordPage.ClickButtonIssaugoti();
+        actualResult = ChangePasswordPage.readInformacijaAtnaujinta();
 
         Assert.assertTrue(
                 actualResult.contains(expectedResult),
