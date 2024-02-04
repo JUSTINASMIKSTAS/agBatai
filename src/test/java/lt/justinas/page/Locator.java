@@ -10,6 +10,9 @@ public class Locator {
                     "//span[text()='Antanas Antanaitis']");
             public static By buttonIstrintiSavoPaskira = By.xpath(
                     "//a[@href='https://www.agbatai.lt/lt/delete-account']");
+            public static By buttonTaip = By.xpath("(//input[@name='delete-account'])[1]");
+            public static By buttonPatvirtinti = By.xpath("//button[@id='submitDeleteAccount']");
+            public static By paragraphPrisijungti = By.xpath("//span[text()='Paskyra']");
 //
         }
 

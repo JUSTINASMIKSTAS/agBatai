@@ -18,11 +18,14 @@ public class DeleteAccountTest extends TestBase {
     }
      @Test
          public void test() {
-             String expectedResult = "";
+             String expectedResult = "Prisijungti";
              String actualResult = null;
 
          DeleteAccountPage.clickButtonProfile();
          DeleteAccountPage.clickButtonIstrintiSavoPaskira();
+         DeleteAccountPage.clickButton();
+         DeleteAccountPage.clickButtonPatvirtinti();
+         actualResult = DeleteAccountPage.readProfileName();
 
              Assert.assertTrue(
                      actualResult.contains(expectedResult),
