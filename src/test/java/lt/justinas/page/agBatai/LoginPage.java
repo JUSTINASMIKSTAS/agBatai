@@ -21,4 +21,13 @@ public class LoginPage extends PageBase {
     public static void enterSlaptazodis(String slaptazodis) {
         Common.sendKeysToElement(Locator.AgBatai.Login.inputSlaptazodis, slaptazodis);
     }
+
+    public static void clickOnButtonLogin() {
+        Common.clickOnElement(Locator.AgBatai.Login.buttonLogin);
+    }
+
+    public static String readProfileName() {
+        Common.waitElementVisible(Locator.AgBatai.Login.paragraphProfileName, 6);
+        return Common.getTextFromElement(Locator.AgBatai.Login.paragraphProfileName);
+    }
 }

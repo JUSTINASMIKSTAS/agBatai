@@ -24,7 +24,8 @@ public class LoginTest extends TestBase {
 
          LoginPage.enterElPastas(elPastas);
          LoginPage.enterSlaptazodis(slaptazodis);
-         LoginPage.clickOnButtonPrisijungti();
+         LoginPage.clickOnButtonLogin();
+         actualResult = LoginPage.readProfileName();
 
              Assert.assertTrue(
                      actualResult.contains(expectedResult),

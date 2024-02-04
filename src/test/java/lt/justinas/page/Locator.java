@@ -11,6 +11,8 @@ public class Locator {
                     "//div[@class='already-have-account text-center']//a");
             public static By inputElPastas = By.xpath("//input[@name='email']");
             public static By inputSlaptazodis = By.xpath("//input[@name='password']");
+            public static By buttonLogin = By.xpath("//button[@id='submit-login']");
+            public static By paragraphProfileName = By.xpath("//span[text()='Antanas Antanaitis']");
         }
 
         public static class Registration {
