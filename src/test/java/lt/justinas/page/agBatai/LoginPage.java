@@ -30,4 +30,11 @@ public class LoginPage extends PageBase {
         Common.waitElementVisible(Locator.AgBatai.Login.paragraphProfileName, 6);
         return Common.getTextFromElement(Locator.AgBatai.Login.paragraphProfileName);
     }
+
+    public static void loginToAccount(String elPastas, String slaptazodis) {
+        LoginPage.enterElPastas(elPastas);
+        LoginPage.enterSlaptazodis(slaptazodis);
+        LoginPage.clickOnButtonLogin();
+
+    }
 }

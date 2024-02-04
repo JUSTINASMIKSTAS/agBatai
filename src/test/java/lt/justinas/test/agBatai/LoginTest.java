@@ -16,7 +16,7 @@ public class LoginTest extends TestBase {
         LoginPage.clickOnButtonPrisijungti();
     }
      @Test
-         public void test() {
+         public void testLogin() {
          String elPastas = "antanas895@gmail.com";
          String slaptazodis = "skaiciai111";
              String expectedResult = "Antanas Antanaitis";
