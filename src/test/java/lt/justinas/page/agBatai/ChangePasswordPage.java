@@ -29,7 +29,7 @@ public class ChangePasswordPage extends PageBase {
         Common.clickOnElement(Locator.AgBatai.ChangePassword.buttonIssaugoti);
     }
 
-    public static String readInformacijaAtnaujinta() {
+    public static String readMessageInformacijaAtnaujinta() {
         Common.waitElementVisible(Locator.AgBatai.ChangePassword.paragraphInformacijaAtnaujinta, 6);
         return Common.getTextFromElement(Locator.AgBatai.ChangePassword.paragraphInformacijaAtnaujinta);
     }

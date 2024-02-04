@@ -29,7 +29,7 @@ public class ChangePasswordTest extends TestBase {
         ChangePasswordPage.enterNewPassword(NaujasSlaptazodis);
         ChangePasswordPage.clickButtonPrivacyPolicy();
         ChangePasswordPage.ClickButtonIssaugoti();
-        actualResult = ChangePasswordPage.readInformacijaAtnaujinta();
+        actualResult = ChangePasswordPage.readMessageInformacijaAtnaujinta();
 
         Assert.assertTrue(
                 actualResult.contains(expectedResult),

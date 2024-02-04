@@ -4,6 +4,24 @@ import org.openqa.selenium.By;
 
 public class Locator {
     public static class AgBatai {
+        public static class AddAddress {
+
+            public static By buttonProfileName = By.xpath(
+                    "//span[text()='Antanas Antanaitis']");
+            public static By buttonMyAddress = By.xpath(
+                    "//a[@href='https://www.agbatai.lt/lt/adresas']");
+            public static By inputAdresas = By.xpath(
+                    "//input[@name='address1']");
+            public static By inputMiestas = By.xpath(
+                    "//input[@name='city']");
+            public static By inputPastoKodas = By.xpath(
+                    "//input[@name='postcode']");
+            public static By buttonIssaugoti = By.xpath(
+                    "//button[@class='btn btn-primary form-control-submit']");
+            public static By paragraphAdresasSekmingaiPridetas = By.xpath(
+                    "//span[text()='Adresas sėkmingai pridėtas!']");
+        }
+
         public static class ChangePassword {
 
             public static By buttonProfileName = By.xpath(
@@ -14,7 +32,7 @@ public class Locator {
             public static By inputNaujasSlaptazodis = By.xpath("//input[@name='new_password']");
             public static By inputrivacyPolicy = By.xpath("//input[@id='privacy-policy']");
             public static By buttonIssaugoti = By.xpath("//button[@data-link-action='save-customer']");
-            public static By paragraphInformacijaAtnaujinta =By.xpath(
+            public static By paragraphInformacijaAtnaujinta = By.xpath(
                     "//span[text()='Informacija atnaujinta.']");
         }
 
