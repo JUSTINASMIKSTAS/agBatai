@@ -4,6 +4,15 @@ import org.openqa.selenium.By;
 
 public class Locator {
     public static class AgBatai {
+        public static class DeleteAccount{
+
+            public static By buttonProfileName = By.xpath(
+                    "//span[text()='Antanas Antanaitis']");
+            public static By buttonIstrintiSavoPaskira = By.xpath(
+                    "//a[@href='https://www.agbatai.lt/lt/delete-account']");
+//
+        }
+
         public static class AddAddress {
 
             public static By buttonProfileName = By.xpath(
