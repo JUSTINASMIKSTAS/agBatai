@@ -22,7 +22,7 @@ public class RegistrationTest extends TestBase {
         String slaptazodis = "skaiciai111";
         String telefonas = "+37064603460";
         String expectedResult = "Antanas Antanaitis";
-        String actualResult = null;
+        String actualResult;
 
         RegistrationPage.enterVardas(vardas);
         RegistrationPage.enterPavarde(pavarde);

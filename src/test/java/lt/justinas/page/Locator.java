@@ -4,16 +4,18 @@ import org.openqa.selenium.By;
 
 public class Locator {
     public static class AgBatai {
-        public static class DeleteAccount{
+        public static class DeleteAccount {
 
             public static By buttonProfileName = By.xpath(
                     "//span[text()='Antanas Antanaitis']");
             public static By buttonIstrintiSavoPaskira = By.xpath(
                     "//a[@href='https://www.agbatai.lt/lt/delete-account']");
-            public static By buttonTaip = By.xpath("(//input[@name='delete-account'])[1]");
-            public static By buttonPatvirtinti = By.xpath("//button[@id='submitDeleteAccount']");
-            public static By paragraphPrisijungti = By.xpath("//span[text()='Paskyra']");
-//
+            public static By buttonTaip = By.xpath(
+                    "(//input[@name='delete-account'])[1]");
+            public static By buttonPatvirtinti = By.xpath(
+                    "//button[@id='submitDeleteAccount']");
+            public static By paragraphPrisijungti = By.xpath(
+                    "//span[text()='Paskyra']");
         }
 
         public static class AddAddress {
@@ -40,10 +42,14 @@ public class Locator {
                     "//span[text()='Antanas Antanaitis']");
             public static By buttonProfileInfo = By.xpath(
                     "//i[@class='icon-user-o align-self-end']");
-            public static By inputSlaptazodis = By.xpath("//input[@name='password']");
-            public static By inputNaujasSlaptazodis = By.xpath("//input[@name='new_password']");
-            public static By inputrivacyPolicy = By.xpath("//input[@id='privacy-policy']");
-            public static By buttonIssaugoti = By.xpath("//button[@data-link-action='save-customer']");
+            public static By inputSlaptazodis = By.xpath(
+                    "//input[@name='password']");
+            public static By inputNaujasSlaptazodis = By.xpath(
+                    "//input[@name='new_password']");
+            public static By inputrivacyPolicy = By.xpath(
+                    "//input[@id='privacy-policy']");
+            public static By buttonIssaugoti = By.xpath(
+                    "//button[@data-link-action='save-customer']");
             public static By paragraphInformacijaAtnaujinta = By.xpath(
                     "//span[text()='Informacija atnaujinta.']");
         }
@@ -61,7 +67,6 @@ public class Locator {
                     "//button[@id='submit-login']");
             public static By paragraphProfileName = By.xpath(
                     "//span[text()='Antanas Antanaitis']");
-
         }
 
         public static class Registration {

@@ -14,11 +14,11 @@ public class ChangePasswordPage extends PageBase {
     }
 
     public static void enterPassword(String slaptazodis) {
-        Common.sendKeysToElement(Locator.AgBatai.ChangePassword.inputSlaptazodis,slaptazodis);
+        Common.sendKeysToElement(Locator.AgBatai.ChangePassword.inputSlaptazodis, slaptazodis);
     }
 
     public static void enterNewPassword(String naujasSlaptazodis) {
-        Common.sendKeysToElement(Locator.AgBatai.ChangePassword.inputNaujasSlaptazodis,naujasSlaptazodis);
+        Common.sendKeysToElement(Locator.AgBatai.ChangePassword.inputNaujasSlaptazodis, naujasSlaptazodis);
     }
 
     public static void clickButtonPrivacyPolicy() {

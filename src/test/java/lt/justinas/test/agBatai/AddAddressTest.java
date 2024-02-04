@@ -1,7 +1,7 @@
 package lt.justinas.test.agBatai;
 
 import lt.justinas.page.agBatai.AddAddressPage;
-import lt.justinas.page.agBatai.ChangePasswordPage;
+
 import lt.justinas.page.agBatai.LoginPage;
 import lt.justinas.test.TestBase;
 import org.testng.Assert;
@@ -25,7 +25,7 @@ public class AddAddressTest extends TestBase {
         String miestas = "Kaunas";
         String pastoKodas = "44288";
         String expectedResult = "Adresas sėkmingai pridėtas!";
-        String actualResult = null;
+        String actualResult;
 
         AddAddressPage.clickButtonProfile();
         AddAddressPage.clickButtonMyAddress();

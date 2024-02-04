@@ -22,7 +22,8 @@ public class ChangePasswordTest extends TestBase {
         String slaptazodis = "skaiciai111";
         String NaujasSlaptazodis = "skaiciai1112";
         String expectedResult = "Informacija atnaujinta.";
-        String actualResult = null;
+        String actualResult;
+
         ChangePasswordPage.clickButtonProfile();
         ChangePasswordPage.clickButtonProfileInfo();
         ChangePasswordPage.enterPassword(slaptazodis);

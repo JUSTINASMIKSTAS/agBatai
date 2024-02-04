@@ -16,20 +16,21 @@ public class DeleteAccountTest extends TestBase {
         LoginPage.clickOnButtonPrisijungti();
         LoginPage.loginToAccount("antanas895@gmail.com", "skaiciai1112");
     }
-     @Test
-         public void test() {
-             String expectedResult = "Prisijungti";
-             String actualResult = null;
 
-         DeleteAccountPage.clickButtonProfile();
-         DeleteAccountPage.clickButtonIstrintiSavoPaskira();
-         DeleteAccountPage.clickButton();
-         DeleteAccountPage.clickButtonPatvirtinti();
-         actualResult = DeleteAccountPage.readProfileName();
+    @Test
+    public void test() {
+        String expectedResult = "Prisijungti";
+        String actualResult = null;
 
-             Assert.assertTrue(
-                     actualResult.contains(expectedResult),
-                     "\nExpected result: %S\nActual result: %s".formatted(expectedResult, actualResult)
-             );
-         }
+        DeleteAccountPage.clickButtonProfile();
+        DeleteAccountPage.clickButtonIstrintiSavoPaskira();
+        DeleteAccountPage.clickButton();
+        DeleteAccountPage.clickButtonPatvirtinti();
+        actualResult = DeleteAccountPage.readProfileName();
+
+        Assert.assertTrue(
+                actualResult.contains(expectedResult),
+                "\nExpected result: %S\nActual result: %s".formatted(expectedResult, actualResult)
+        );
+    }
 }
