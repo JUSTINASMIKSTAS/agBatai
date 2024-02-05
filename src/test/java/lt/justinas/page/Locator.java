@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Locator {
     public static class AgBatai {
-        public static class Search{
+        public static class Search {
 
             public static By inputBatai = By.xpath(
                     "//input[@id='site-search']"
@@ -61,32 +61,8 @@ public class Locator {
             );
         }
 
-        public static class ChangePassword {
-
-            public static By buttonProfileName = By.xpath(
-                    "//span[text()='Antanas Antanaitis']"
-            );
-            public static By buttonProfileInfo = By.xpath(
-                    "//i[@class='icon-user-o align-self-end']"
-            );
-            public static By inputSlaptazodis = By.xpath(
-                    "//input[@name='password']"
-            );
-            public static By inputNaujasSlaptazodis = By.xpath(
-                    "//input[@name='new_password']"
-            );
-            public static By inputrivacyPolicy = By.xpath(
-                    "//input[@id='privacy-policy']"
-            );
-            public static By buttonIssaugoti = By.xpath(
-                    "//button[@data-link-action='save-customer']"
-            );
-            public static By paragraphInformacijaAtnaujinta = By.xpath(
-                    "//span[text()='Informacija atnaujinta.']"
-            );
-        }
-
         public static class Login {
+
             public static By buttonCookie = By.xpath(
                     "//button[@id='lgcookieslaw_accept']"
             );

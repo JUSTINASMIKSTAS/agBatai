@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 
 public class Common {
@@ -43,5 +44,4 @@ public class Common {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(sec));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
-
 }

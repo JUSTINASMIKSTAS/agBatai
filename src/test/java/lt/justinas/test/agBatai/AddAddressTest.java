@@ -1,7 +1,6 @@
 package lt.justinas.test.agBatai;
 
 import lt.justinas.page.agBatai.AddAddressPage;
-
 import lt.justinas.page.agBatai.LoginPage;
 import lt.justinas.test.TestBase;
 import org.testng.Assert;

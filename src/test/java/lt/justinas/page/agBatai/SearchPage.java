@@ -7,7 +7,7 @@ import lt.justinas.page.PageBase;
 public class SearchPage extends PageBase {
 
     public static void enterBatai(String batai) {
-        Common.sendKeysToElement(Locator.AgBatai.Search.inputBatai,batai);
+        Common.sendKeysToElement(Locator.AgBatai.Search.inputBatai, batai);
     }
 
     public static void clickButtonSearch() {

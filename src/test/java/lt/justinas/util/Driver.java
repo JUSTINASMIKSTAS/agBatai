@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Driver {
+
     private static WebDriver driver;
 
     public static WebDriver getDriver() {
@@ -23,7 +24,5 @@ public class Driver {
 
         driver.get("chrome://settings/");
         ((JavascriptExecutor) driver).executeScript("chrome.settingsPrivate.setDefaultZoom(0.65)");
-
-
     }
 }

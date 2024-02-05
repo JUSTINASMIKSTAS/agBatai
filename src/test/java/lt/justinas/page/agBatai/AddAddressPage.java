@@ -5,6 +5,7 @@ import lt.justinas.page.Locator;
 import lt.justinas.page.PageBase;
 
 public class AddAddressPage extends PageBase {
+
     public static void clickButtonProfile() {
         Common.clickOnElement(Locator.AgBatai.AddAddress.buttonProfileName);
     }
