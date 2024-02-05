@@ -18,7 +18,7 @@ public class DeleteAccountTest extends TestBase {
     }
 
     @Test
-    public void test() {
+    public void testDeleteAccount() {
         String expectedResult = "Prisijungti";
         String actualResult = null;
 

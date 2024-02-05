@@ -18,7 +18,7 @@ public class ChangePasswordTest extends TestBase {
     }
 
     @Test
-    public void test() {
+    public void testChangePassword() {
         String slaptazodis = "skaiciai111";
         String NaujasSlaptazodis = "skaiciai1112";
         String expectedResult = "Informacija atnaujinta.";
