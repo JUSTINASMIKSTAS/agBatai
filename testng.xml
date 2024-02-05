@@ -5,7 +5,7 @@
         <classes>
             <class name="lt.justinas.test.agBatai.RegistrationTest"/>
             <class name="lt.justinas.test.agBatai.LoginTest"/>
-            <class name="lt.justinas.test.agBatai.ChangePasswordTest"/>
+            <class name="lt.justinas.test.agBatai.SearchTest"/>
             <class name="lt.justinas.test.agBatai.AddAddressTest"/>
             <class name="lt.justinas.test.agBatai.DeleteAccountTest"/>
         </classes>
