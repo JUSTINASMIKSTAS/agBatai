@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="agBatai testas" verbose="1">
+    <test name="agBatai">
+        <classes>
+            <class name="lt.justinas.test.agBatai.RegistrationTest"/>
+            <class name="lt.justinas.test.agBatai.LoginTest"/>
+            <class name="lt.justinas.test.agBatai.ChangePasswordTest"/>
+            <class name="lt.justinas.test.agBatai.AddAddressTest"/>
+            <class name="lt.justinas.test.agBatai.DeleteAccountTest"/>
+        </classes>
+    </test>
+</suite>
