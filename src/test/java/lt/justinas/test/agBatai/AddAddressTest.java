@@ -15,7 +15,6 @@ public class AddAddressTest extends TestBase {
         LoginPage.acceptCokies();
         LoginPage.clickOnButtonPrisijungti();
         LoginPage.loginToAccount("antanas895@gmail.com", "skaiciai111");
-
     }
 
     @Test
