@@ -1,13 +1,13 @@
 package lt.justinas.test.agBatai;
 
-import lt.justinas.page.agBatai.DeleteAccountPage;
 import lt.justinas.page.agBatai.LoginPage;
+import lt.justinas.page.agBatai.SearchPage;
 import lt.justinas.test.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DeleteAccountTest extends TestBase {
+public class SearchTest extends TestBase {
     @BeforeMethod
     @Override
     public void setUp() {
@@ -18,15 +18,14 @@ public class DeleteAccountTest extends TestBase {
     }
 
     @Test
-    public void testDeleteAccount() {
-        String expectedResult = "Prisijungti";
-        String actualResult = null;
+    public void testSearch() {
+        String batai = "Vyriški batai";
+        String expectedResult = "Vyriški batai";
+        String actualResult;
 
-        DeleteAccountPage.clickButtonProfile();
-        DeleteAccountPage.clickButtonIstrintiSavoPaskira();
-        DeleteAccountPage.clickButton();
-        DeleteAccountPage.clickButtonPatvirtinti();
-        actualResult = DeleteAccountPage.readProfileName();
+        SearchPage.enterBatai(batai);
+        SearchPage.clickButtonSearch();
+        actualResult = SearchPage.readMessageVyriskiBatai();
 
         Assert.assertTrue(
                 actualResult.contains(expectedResult),

@@ -15,7 +15,7 @@ public class AddAddressTest extends TestBase {
         LoginPage.open("https://www.agbatai.lt/lt/prisijungimas?create_account=1", 8);
         LoginPage.acceptCokies();
         LoginPage.clickOnButtonPrisijungti();
-        LoginPage.loginToAccount("antanas895@gmail.com", "skaiciai1112");
+        LoginPage.loginToAccount("antanas895@gmail.com", "skaiciai111");
 
     }
 

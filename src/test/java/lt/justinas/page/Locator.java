@@ -4,6 +4,19 @@ import org.openqa.selenium.By;
 
 public class Locator {
     public static class AgBatai {
+        public static class Search{
+
+            public static By inputBatai = By.xpath(
+                    "//input[@id='site-search']"
+            );
+            public static By buttonSearch = By.xpath(
+                    "//div[@class='input-group-append']"
+            );
+            public static By paragraphVyriskiBatai = By.xpath(
+                    "//h2[@class='h2']"
+            );
+        }
+
         public static class DeleteAccount {
 
             public static By buttonProfileName = By.xpath(
