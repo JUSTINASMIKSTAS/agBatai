@@ -20,11 +20,11 @@ public class DeleteAccountTest extends TestBase {
     @Test
     public void testDeleteAccount() {
         String expectedResult = "Prisijungti";
-        String actualResult = null;
+        String actualResult;
 
         DeleteAccountPage.clickButtonProfile();
         DeleteAccountPage.clickButtonIstrintiSavoPaskira();
-        DeleteAccountPage.clickButton();
+        DeleteAccountPage.clickButtonTaip();
         DeleteAccountPage.clickButtonPatvirtinti();
         actualResult = DeleteAccountPage.readProfileName();
 

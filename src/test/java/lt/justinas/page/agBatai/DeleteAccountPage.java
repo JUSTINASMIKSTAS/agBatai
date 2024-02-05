@@ -14,7 +14,7 @@ public class DeleteAccountPage extends PageBase {
         Common.clickOnElement(Locator.AgBatai.DeleteAccount.buttonIstrintiSavoPaskira);
     }
 
-    public static void clickButton() {
+    public static void clickButtonTaip() {
         Common.clickOnElement(Locator.AgBatai.DeleteAccount.buttonTaip);
     }
 
