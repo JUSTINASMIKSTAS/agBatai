@@ -1,6 +1,6 @@
 # Baigiamasis darbas
 
-Site used for testing: https://www.agbatai.lt/lt/prisijungimas?create_account=1
+Site used for testing: https://www.agbatai.lt/lt/
 
 ## Tests:
 
